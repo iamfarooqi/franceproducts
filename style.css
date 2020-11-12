@@ -1,0 +1,197 @@
+body {
+    width: 99%;
+    margin: 0px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-img {
+    background-image: url(./images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 35em;
+    margin-top: 1%;
+}
+
+.logo {
+    margin: -2%;
+    padding-left: 2%;
+
+
+}
+
+.navbar {
+    width: 100%;
+    margin: -1% auto;
+    background-color: orangered;
+    height: 18%;
+}
+
+li {
+    display: inline-block;
+    margin: 4%;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+ul li a {
+    transition: 0.4s ease;
+    border-bottom: 3px solid black;
+    /* border: 3px solid rgb(0, 0, 0); */
+    background-color: rgb(255, 123, 0);
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+ul li a:hover {
+    background-color: rgb(245, 196, 107);
+    color: black;
+    cursor: pointer;
+    box-shadow: 5px 5px 6px black;
+}
+
+.menu {
+    width: 50%;
+    float: right;
+    /* border: 1px black solid; */
+}
+
+.body {
+    width: 97.8%;
+    text-align: center;
+    margin: 0% auto;
+}
+
+.div1 {
+    width: 250px;
+}
+
+.div2 {
+    width: 250px;
+}
+
+.div3 {
+    width: 250px;
+}
+
+.div1, .div2, .div3 {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 1%;
+    margin: 1%;
+    flex-wrap: wrap;
+    border-radius: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.li1 {
+    position: fixed;
+    right: 49%;
+    top: 2%;
+    z-index: 10;
+
+}
+
+.li2 {
+    position: fixed;
+    right: 38%;
+    top: 2%;
+    z-index: 10;
+}
+
+.li3 {
+    position: fixed;
+    right: 27%;
+    top: 2%;
+    z-index: 10;
+}
+
+.li4 {
+    position: fixed;
+    right: 16%;
+    top: 2%;
+    z-index: 10;
+}
+
+.li5 {
+    width: 120px;
+    position: fixed;
+    right: 4%;
+    top: 2%;
+    z-index: 10;
+}
+
+h1 {
+    font-size: 330%;
+    text-decoration: underline;
+}
+
+.alter-ul {
+    text-align: left;
+}
+
+.alter {
+    display: block;
+    font-weight: normal;
+}
+
+.footer {
+    width: 100%;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;    
+}
+
+
+.author1 {
+    
+    width: 40%;
+    display: inline-block;
+  
+
+}
+
+.author2 {
+    width: 40%;
+    display: inline-block;
+    
+}
+
+.btn {
+    width: 10%;
+    display: block;
+    position: relative;
+    left: 45%;
+    transition: 0.4s ease;
+    border-bottom: 3px solid black;
+    background-color: rgb(255, 123, 0);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+    font-weight: bolder;
+    z-index: 1;
+}
+
+
+.btn:hover {
+    background-color: rgb(245, 196, 107);
+    color: black;
+    cursor: pointer;
+    box-shadow: 5px 5px 6px black;
+}
+
+
+.copyright {
+    text-align: center;
+}
+
